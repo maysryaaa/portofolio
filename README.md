@@ -1,46 +1,45 @@
-# Astro Starter Kit: Basics
+# Personal Portfolio — May Surya Beni Juliasari
+
+Website portfolio satu halaman untuk menampilkan profil, proyek, pendidikan, dan kontak. Dibangun dengan Astro, React, Tailwind CSS, komponen shadcn/ui, dan Phosphor Icons. Spesifikasi lengkap ada di [`PRD.MD`](./PRD.MD).
+
+## Menjalankan
 
 ```sh
-npm create astro@latest -- --template basics
+npm install
+npm run dev        # http://localhost:4321
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Perintah lain:
 
-## 🚀 Project Structure
+| Perintah | Fungsi |
+| --- | --- |
+| `npm run astro -- dev --background` | Dev server di background (`status`, `stop`, `logs`) |
+| `npm run astro -- check` | Typecheck Astro + TypeScript |
+| `npm run build` | Build produksi ke `dist/` |
+| `npm run preview` | Preview hasil build |
 
-Inside of your Astro project, you'll see the following folders and files:
+## Mengubah konten
+
+- **Data utama** (nama, bio, email, sosial media, skill, proyek, pendidikan): `src/data/site.ts`.
+- **Foto profil**: ganti `public/images/profile.png` (sesuaikan path di `src/components/sections/hero.tsx` bila memakai nama atau format lain).
+- **Thumbnail proyek**: `public/images/projects/`.
+- **Warna, font, animasi**: `src/styles/global.css`.
+
+> Profil, kampus, email, dan sosial media sudah terisi. Daftar proyek dan thumbnail masih contoh — ganti dengan proyek asli. LinkedIn dapat ditambahkan di `src/data/site.ts` jika sudah tersedia.
+
+## Struktur
 
 ```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+src/
+├── components/
+│   ├── sections/     # navbar, hero, about, projects, education, contact, footer
+│   ├── ui/           # button, card, badge (gaya shadcn/ui)
+│   ├── copy-email.tsx
+│   ├── section-heading.tsx
+│   └── social-links.tsx
+├── data/site.ts      # seluruh konten website
+├── layouts/Layout.astro
+├── lib/utils.ts
+├── pages/index.astro
+└── styles/global.css
 ```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
