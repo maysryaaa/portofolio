@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Ilustrasi contoh antarmuka Website Portfolio Pribadi">
+  <title>Ilustrasi contoh antarmuka Website Portfolio Pribadi</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffc9d4" />
+      <stop offset="0.5" stop-color="#fc8eac" />
+      <stop offset="1" stop-color="#f2809f" />
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.72" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.38" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.15" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#ffe2c8" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#ffe2c8" stop-opacity="0" />
+    </radialGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#5c1836" flood-opacity="0.28" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)" />
+  <rect width="800" height="500" fill="url(#glow)" />
+
+  <g filter="url(#sh)">
+    <rect x="56" y="36" width="688" height="428" rx="30" fill="#ffffff" opacity="0.16" />
+    <rect x="56.5" y="36.5" width="687" height="427" rx="29.5" fill="none" stroke="#ffffff" stroke-opacity="0.55" />
+  </g>
+
+  <g filter="url(#sh)">
+    <rect x="92" y="64" width="616" height="40" rx="20" fill="#ffffff" opacity="0.55" />
+    <rect x="92.5" y="64.5" width="615" height="39" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity="0.7" />
+  </g>
+  <circle cx="118" cy="84" r="11" fill="#2a1020" />
+  <text x="118" y="88" text-anchor="middle" font-family="'Hanken Grotesk', Arial, sans-serif" font-size="8" font-weight="700" fill="#ffdde4">MS</text>
+  <g font-family="'Hanken Grotesk', Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="1.4" fill="#2a1020" fill-opacity="0.6">
+    <text x="332" y="87">TENTANG</text>
+    <text x="392" y="87">PROYEK</text>
+    <text x="446" y="87">PENDIDIKAN</text>
+    <text x="524" y="87">KONTAK</text>
+  </g>
+  <rect x="602" y="74" width="84" height="21" rx="10.5" fill="#2a1020" />
+  <text x="644" y="88" text-anchor="middle" font-family="'Hanken Grotesk', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1.2" fill="#ffdde4">HUBUNGI</text>
+
+  <g font-family="'Funnel Display', 'Hanken Grotesk', Arial, sans-serif" fill="#2a1020">
+    <text x="98" y="240" font-size="86" font-weight="500" letter-spacing="-5">May Surya</text>
+    <text x="98" y="322" font-size="86" font-weight="500" letter-spacing="-5" fill-opacity="0.62">Beni Juliasari</text>
+  </g>
+
+  <g font-family="'Hanken Grotesk', Arial, sans-serif" fill="#2a1020">
+    <text x="98" y="352" font-size="8.5" font-weight="600" letter-spacing="1.6" fill-opacity="0.66">MAHASISWA TEKNIK INFORMATIKA · UI ENTHUSIAST</text>
+    <rect x="98" y="374" width="118" height="28" rx="14" fill="#2a1020" />
+    <text x="157" y="392" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="1.2" fill="#ffdde4">HUBUNGI MAY</text>
+    <rect x="228" y="374" width="100" height="28" rx="14" fill="#ffffff" opacity="0.45" />
+    <rect x="228.5" y="374.5" width="99" height="27" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.7" />
+    <text x="278" y="392" text-anchor="middle" font-size="7.5" font-weight="600" letter-spacing="1.2" fill-opacity="0.75">LIHAT KARYA</text>
+    <path d="M98 428 H530" stroke="#2a1020" stroke-opacity="0.16" />
+    <text x="98" y="446" font-size="7" font-weight="600" letter-spacing="1.4" fill-opacity="0.5">LAMPUNG, INDONESIA · 2026</text>
+  </g>
+
+  <g filter="url(#sh)">
+    <rect x="556" y="120" width="152" height="196" rx="24" fill="url(#lens)" />
+    <rect x="556.5" y="120.5" width="151" height="195" rx="23.5" fill="none" stroke="#ffffff" stroke-opacity="0.72" />
+  </g>
+  <rect x="568" y="132" width="128" height="172" rx="16" fill="#fc8eac" opacity="0.7" />
+  <text x="632" y="230" text-anchor="middle" font-family="'Funnel Display', Arial, sans-serif" font-size="46" font-weight="500" letter-spacing="-2" fill="#2a1020">MS</text>
+  <path d="M568 210 L696 152" stroke="#ffffff" stroke-opacity="0.35" stroke-width="14" />
+
+  <rect x="540" y="332" width="184" height="46" rx="14" fill="#ffffff" opacity="0.52" />
+  <rect x="540.5" y="332.5" width="183" height="45" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.7" />
+  <text x="556" y="351" font-family="'Hanken Grotesk', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1.1" fill="#2a1020" fill-opacity="0.75">MAY SURYA BENI JULIASARI</text>
+  <text x="556" y="366" font-family="'Hanken Grotesk', Arial, sans-serif" font-size="7" fill="#2a1020" fill-opacity="0.55">Lampung, Indonesia</text>
+
+  <text x="706" y="480" text-anchor="end" font-family="'Hanken Grotesk', Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="2" fill="#2a1020" fill-opacity="0.4">ILUSTRASI CONTOH</text>
+</svg>
