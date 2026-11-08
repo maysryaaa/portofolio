@@ -12,6 +12,8 @@ export const site = {
   email: "maysryaaa@gmail.com",
   description:
     "Saya mengerjakan bagian tampilan web dan sedang belajar Astro, React, serta Tailwind CSS.",
+  seoDescription:
+    "Portofolio May Surya Beni Juliasari, mahasiswa Teknik Informatika ITERA. Berisi proyek web, pendidikan, dan kontak.",
   about: [
     "Saya May Surya Beni Juliasari, mahasiswa Teknik Informatika di Institut Teknologi Sumatera. Saya paling suka mengerjakan bagian tampilan website, dari menyusun layout sampai merapikan detail di layar kecil.",
     "Saat ini saya belajar Astro, React, dan Tailwind CSS lewat proyek kuliah dan proyek pribadi. Saya terbuka untuk kolaborasi, magang, atau pekerjaan freelance di bidang web.",
