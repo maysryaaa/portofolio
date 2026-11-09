@@ -45,7 +45,7 @@ export function Hero() {
                 href="#contact"
                 className="group inline-flex h-12 items-center gap-2.5 rounded-full bg-ink px-6 text-[10.5px] font-semibold uppercase tracking-[0.14em] text-blush-wash shadow-[0_18px_36px_-16px_rgba(42,16,32,0.7)] transition-colors duration-200 hover:bg-ink-soft"
               >
-                Hubungi saya
+                Contact me
                 <ArrowUpRightIcon
                   size={14}
                   weight="bold"
@@ -57,7 +57,7 @@ export function Hero() {
                 href="#projects"
                 className="glass-soft group inline-flex h-12 items-center gap-2.5 rounded-full px-6 text-[10.5px] font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-200 hover:bg-white/55"
               >
-                Lihat proyek
+                View projects
                 <ArrowDownIcon
                   size={14}
                   weight="bold"
@@ -79,7 +79,7 @@ export function Hero() {
             <div className="glass sheen develop relative z-10 aspect-[4/5] -rotate-[1.5deg] overflow-hidden p-2.5">
               <img
                 src="/images/profile.png"
-                alt={`Foto ${site.name}`}
+                alt={`Photo of ${site.name}`}
                 width={433}
                 height={577}
                 fetchPriority="high"
@@ -110,7 +110,7 @@ export function Hero() {
         >
           <span className="glass-soft inline-flex items-center gap-2.5 self-start rounded-full py-1.5 pl-2.5 pr-3.5 text-[9.5px] font-semibold uppercase tracking-[0.14em] text-ink">
             <span className="pulse-dot" aria-hidden="true" />
-            Terbuka untuk magang dan freelance
+            Open to internships and freelance work
           </span>
 
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">

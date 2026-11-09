@@ -25,7 +25,7 @@ export function CopyEmail({ email, className }: CopyEmailProps) {
   return (
     <Button type="button" variant="outline" onClick={copyEmail} aria-live="polite" className={className}>
       {copied ? <CheckIcon weight="bold" aria-hidden="true" /> : <CopyIcon aria-hidden="true" />}
-      {copied ? "Tersalin" : "Salin email"}
+      {copied ? "Copied" : "Copy email"}
     </Button>
   );
 }

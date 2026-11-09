@@ -6,8 +6,8 @@ export function About() {
     <section id="about" className="section">
       <div className="wrap">
         <SectionHeading
-          title="Kenalan lebih dekat."
-          deck="Kuliah di ITERA, tinggal di Lampung, dan belajar web lewat proyek kecil."
+          title="Get To Know Me."
+          deck="Studying at ITERA, living in Lampung, and learning web through small projects."
         />
 
         <div className="mt-14 grid gap-10 lg:grid-cols-12 lg:gap-8">
@@ -21,7 +21,7 @@ export function About() {
 
             <div className="glass sheen mt-10 rounded-3xl p-7 sm:p-9">
               <p className="text-[9.5px] font-semibold uppercase tracking-[0.16em] text-ink-soft">
-                Sekarang
+                Now
               </p>
               <ul className="mt-6 grid gap-6 sm:grid-cols-3">
                 {stats.map((stat) => (
@@ -41,7 +41,7 @@ export function About() {
           <aside className="lg:col-span-4 lg:col-start-9" data-reveal>
             <div className="glass rounded-3xl p-6 sm:p-7">
               <h3 className="font-display text-[1.5rem] font-medium leading-none tracking-[-0.025em]">
-                Fokus
+                Focus
               </h3>
               <ul className="mt-5 space-y-4">
                 {site.interests.map((interest) => (
@@ -58,7 +58,7 @@ export function About() {
               </ul>
 
               <h3 className="mt-8 font-display text-[1.5rem] font-medium leading-none tracking-[-0.025em]">
-                Keahlian
+                Skills
               </h3>
               <ul className="mt-4 flex flex-wrap gap-1.5">
                 {site.skills.map((skill) => (

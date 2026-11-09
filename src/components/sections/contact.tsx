@@ -21,10 +21,10 @@ export function Contact() {
           <div className="relative z-10 grid gap-10 lg:grid-cols-12 lg:gap-10">
             <div className="lg:col-span-7">
               <h2 className="font-display text-[clamp(2.9rem,7.4vw,5.4rem)] font-medium leading-[0.9] tracking-[-0.04em] text-blush-wash">
-                Mari bicara.
+                Let's Talk.
               </h2>
               <p className="mt-6 max-w-[40ch] text-[15.5px] leading-[1.7] text-blush-muted">
-                Saya terbuka untuk magang, kolaborasi, atau pekerjaan freelance di bidang web.
+                I'm open to internships, collaboration, or freelance web work.
               </p>
             </div>
 
@@ -44,7 +44,7 @@ export function Contact() {
                   href={`mailto:${site.email}`}
                   className="inline-flex h-11 items-center gap-2.5 rounded-full bg-blush-wash px-5 text-[10px] font-semibold uppercase leading-none tracking-[0.14em] text-ink transition-colors hover:bg-white"
                 >
-                  Kirim email
+                  Send email
                   <ArrowUpRightIcon size={13} weight="bold" aria-hidden="true" />
                 </a>
                 <CopyEmail
@@ -56,13 +56,13 @@ export function Contact() {
               <dl className="mt-9 flex flex-wrap items-start justify-between gap-x-6 gap-y-4 border-t border-blush-wash/15 pt-5">
                 <div>
                   <dt className="text-[9.5px] font-semibold uppercase tracking-[0.16em] text-blush-muted">
-                    Lokasi
+                    Location
                   </dt>
                   <dd className="mt-1.5 text-[13px] font-medium">{site.location}</dd>
                 </div>
                 <div>
                   <dt className="text-[9.5px] font-semibold uppercase tracking-[0.16em] text-blush-muted">
-                    Media sosial
+                    Social media
                   </dt>
                   <dd className="mt-2">
                     <SocialLinks
