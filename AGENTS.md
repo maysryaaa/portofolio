@@ -2,13 +2,13 @@
 
 ## Baca dulu
 
-- `PRD.MD` adalah sumber kebenaran ruang lingkup, urutan section, dan desain. Ikuti struktur §5: Navbar → Hero → About Me → Projects → Education → Contact → Footer (Social Links).
+- `PRD.MD` adalah sumber kebenaran ruang lingkup, urutan section, dan desain. Ikuti struktur §5: Navbar → Hero → About Me → Projects → Experience → Education → Contact → Footer (Social Links).
 - Ini website **single page** (`src/pages/index.astro`). Section baru = komponen di `src/components/sections/`, bukan route baru.
 
 ## Stack & struktur
 
 - Astro 7 + React 19 + Tailwind CSS v4 (via `@tailwindcss/vite`) + Phosphor Icons. Komponen shadcn/ui ditulis manual di `src/components/ui/` (`components.json` memakai `iconLibrary: phosphor`).
-- Semua teks, proyek, pendidikan, email, dan sosial media ada di **`src/data/site.ts`**. Profil, kampus, email, dan sosial media sudah data asli; daftar proyek dan thumbnail masih contoh.
+- Semua teks, proyek, pendidikan, email, dan sosial media ada di **`src/data/site.ts`**. Profil, kampus, email, dan sosial media sudah data asli. Proyek yang tampil hanya website ini, dengan thumbnail berupa ilustrasi.
 - Foto profil: `public/images/profile.png`; thumbnail proyek: `public/images/projects/`.
 - Token warna, font, dan animasi global ada di `src/styles/global.css`.
 - Hydration minimal: hanya `Navbar` dan `Contact` yang punya directive `client:*`. Section lain dirender statis; jangan tambahkan `client:load` tanpa kebutuhan interaktif.

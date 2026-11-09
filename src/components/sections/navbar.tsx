@@ -6,7 +6,7 @@ import { XIcon } from "@phosphor-icons/react/dist/csr/X";
 import { navItems, site } from "../../data/site";
 import { cn } from "../../lib/utils";
 
-const sectionIds = ["home", "about", "projects", "education", "contact"];
+const sectionIds = ["home", "about", "projects", "experience", "education", "contact"];
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -38,12 +38,12 @@ export function Navbar() {
 
   return (
     <header className="fixed inset-x-0 top-3 z-50 sm:top-5">
-      <nav aria-label="Navigasi utama" className="wrap">
+      <nav aria-label="Main navigation" className="wrap">
         <div className="glass flex h-14 items-center justify-between gap-3 rounded-full px-2.5">
           <a
             href="#home"
             className="group flex items-center gap-2.5 rounded-full py-1 pl-1 pr-2"
-            aria-label={`${site.name}, beranda`}
+            aria-label={`${site.name}, home`}
           >
             <span className="flex size-8 flex-none items-center justify-center rounded-full bg-ink font-display text-[12px] font-semibold leading-none tracking-[-0.02em] text-blush-wash">
               MS
@@ -82,7 +82,7 @@ export function Navbar() {
               href="#contact"
               className="hidden h-9 items-center gap-2 rounded-full bg-ink px-4 text-[10.5px] font-semibold uppercase leading-none tracking-[0.13em] text-blush-wash transition-colors hover:bg-ink-soft sm:inline-flex"
             >
-              Hubungi
+              Contact
               <ArrowUpRightIcon size={13} weight="bold" aria-hidden="true" />
             </a>
             <button
@@ -90,7 +90,7 @@ export function Navbar() {
               onClick={() => setOpen((value) => !value)}
               aria-expanded={open}
               aria-controls="mobile-menu"
-              aria-label={open ? "Tutup menu" : "Buka menu"}
+              aria-label={open ? "Close menu" : "Open menu"}
               className="glass-soft inline-flex size-9 items-center justify-center rounded-full text-ink transition-colors hover:bg-white/55 md:hidden"
             >
               {open ? <XIcon size={17} /> : <ListIcon size={17} />}
@@ -141,7 +141,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="flex h-11 items-center justify-center gap-2 rounded-full bg-ink text-[10.5px] font-semibold uppercase tracking-[0.13em] text-blush-wash"
             >
-              Hubungi saya
+              Contact me
               <ArrowUpRightIcon size={13} weight="bold" aria-hidden="true" />
             </a>
           </div>

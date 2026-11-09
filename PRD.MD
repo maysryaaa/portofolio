@@ -46,19 +46,26 @@ Membuat website personal portfolio untuk memperkenalkan diri, menampilkan inform
 - Nama dan deskripsi proyek.
 - Link GitHub atau demo project.
 
-### 3.4 Education
+### 3.4 Experience
 
-- Riwayat pendidikan.
+- Pengalaman menjadi staf pada acara kampus.
+- Foto dokumentasi acara.
+- Nama acara, peran, dan periode.
+- Deskripsi acara dan kontribusi.
+
+### 3.5 Education
+
+- Riwayat pendidikan berupa timeline.
 - Nama institusi.
 - Program studi dan tahun pendidikan.
 
-### 3.5 Contact
+### 3.6 Contact
 
 - Email.
 - Informasi kontak.
 - Tombol untuk menghubungi melalui email.
 
-### 3.6 Social Links
+### 3.7 Social Links
 
 - GitHub.
 - Instagram.
@@ -80,9 +87,10 @@ Website menggunakan konsep **Single Page Portfolio** dengan susunan:
 2. Hero
 3. About Me
 4. Projects
-5. Education
-6. Contact
-7. Footer (Social Links)
+5. Experience
+6. Education
+7. Contact
+8. Footer (Social Links)
 
 ## 6. Tujuan Website
 

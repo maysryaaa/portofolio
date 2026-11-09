@@ -1,7 +1,7 @@
 import { ArrowUpIcon } from "@phosphor-icons/react/dist/csr/ArrowUp";
 
 import { SocialLinks } from "../social-links";
-import { site } from "../../data/site";
+import { footerSocials, site } from "../../data/site";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer className="relative z-10 py-8">
       <div className="wrap">
-        <div className="flex flex-col gap-6 border-t border-line pt-6 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-6 border-t border-line pt-6 lg:flex-row lg:items-center lg:justify-between">
           <a
             href="#home"
             className="font-display text-[1.35rem] font-medium leading-none tracking-[-0.03em]"
@@ -18,16 +18,16 @@ export function Footer() {
           </a>
 
           <p className="max-w-[44ch] text-[11.5px] leading-[1.7] text-ink-soft">
-            Dibangun dengan Astro, React, dan Tailwind CSS.
+            Built with Astro, React, and Tailwind CSS.
           </p>
 
-          <SocialLinks items={site.socials} />
+          <SocialLinks items={footerSocials} />
 
           <a
             href="#home"
             className="group inline-flex items-center gap-2 text-[9.5px] font-semibold uppercase tracking-[0.14em] text-ink-soft transition-colors hover:text-ink"
           >
-            Kembali ke atas
+            Back to top
             <ArrowUpIcon
               size={12}
               weight="bold"
